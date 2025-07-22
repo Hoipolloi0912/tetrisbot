@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 font = pygame.font.Font(None,40)
 
 GAME_UPDATE = pygame.USEREVENT
-#pygame.time.set_timer(GAME_UPDATE,300)
+pygame.time.set_timer(GAME_UPDATE,300)
 
 game = Game()
 

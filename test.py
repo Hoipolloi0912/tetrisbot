@@ -52,7 +52,7 @@ def game_logic(net):
     return game.score
 
 if __name__ == '__main__':
-    with open("mynet4", 'rb') as f:
+    with open("models/mynet3", 'rb') as f:
         net:NeuralNetwork = pickle.load(f)
 
     pygame.init()

@@ -90,5 +90,5 @@ if __name__ == '__main__':
 
     best_net = genetic_algorithm(population_size, generations, mutation_rate, top_k, elite_k, pieces, game_logic)
 
-    with open("mynet4", 'wb') as f:
+    with open("models/mynet4", 'wb') as f:
         pickle.dump(best_net, f)
